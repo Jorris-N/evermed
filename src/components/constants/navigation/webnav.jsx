@@ -42,7 +42,7 @@ export default function WebNav() {
     }
 
   return (
-    <div className='bg-transparent'>
+    <div className=''>
         <div className='py-6 lg:flex justify-between items-center lg:w-10/12 px-6 mx-auto hidden'>
         <div className='items-center'>
                 <Link href={'/'} className=''>

@@ -32,7 +32,7 @@ export default function Banner() {
 
                           <div className='h-full w-full '>
                             <div className='flex-shrink-0 relative'>
-                              <Image src={Family} alt='Evermed' className='object-cover' width={600} height={500}/>
+                              <Image src={Family} alt='Evermed' className='object-cover' width={540} height={500}/>
                             </div>
                           </div>
                       </div>

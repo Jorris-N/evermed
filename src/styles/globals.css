@@ -40,7 +40,7 @@ body {
 }
 
 .homeBanner2 .bannerOverlay{
-  background: rgba(15, 15, 15, .4);
+  background: #effafa;
   height: 800px;
   width: 100%;
 }

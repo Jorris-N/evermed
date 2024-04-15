@@ -43,6 +43,8 @@ export default function Responsive() {
     }
 
   return (
+    <div className='relative'>
+        <div className='absolute top-0 left-0 w-full bg-transparent'>
     <div className='lg:hidden'>
       <div className='bg-transparent xl:hidden flex justify-between w-full px-8 py-4 items-center border-transparent sm:border-gray-200'>
             <button className="flex focus:outline-none justify-between  items-center space-x-3">
@@ -76,6 +78,8 @@ export default function Responsive() {
                     </button>
                 ))}
             </div>
+    </div>
+    </div>
     </div>
   )
 }

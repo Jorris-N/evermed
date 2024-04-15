@@ -5,6 +5,7 @@ import Layout from "@/components/constants/layout/layout";
 import Banner from "@/components/views/home/banner";
 import FactCounter from "@/components/views/home/factCounter";
 import OurCompany from "@/components/views/home/ourCompany";
+import Values from "@/components/views/home/values";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -15,6 +16,7 @@ export default function Home() {
         <Banner/>
         <FactCounter/>
         <OurCompany/>
+        <Values/>
       </Layout>
     </div>
   );

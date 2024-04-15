@@ -69,7 +69,7 @@ export default function Responsive() {
                 </div>
                 
       </div>
-            <div id="Main" className={`${show ? "translate-x-full" : "-translate-x-0"} bg-white space-y-2 transform  xl:translate-x-0 shadow xl:rounded-r fixed h-screen top-22 sm:z-20  ease-in-out transition duration-500 flex justify-start items-start w-full sm:w-64 flex-col `}>
+            <div id="Main" className={`${show ? "-translate-x-full" : "-translate-x-0"} bg-white space-y-2 transform  xl:translate-x-0 shadow xl:rounded-r fixed h-screen top-22 sm:z-20  ease-in-out transition duration-500 flex justify-start items-start w-full sm:w-64 flex-col `}>
                 {navigation.links.map((item)=>(
                     <button className="text-stone-700 rounded py-3 px-8 items-start text-left space-x-6 w-full" key={item.id} >
                         <Link href={item.href} className={router.pathname == item.href ? "text-[#1dbfc1] capitalize font-medium" : "hover:text-[#1dbfc1] text-slate-600 capitalize font-normal"}>{item.name}</Link>

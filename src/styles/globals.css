@@ -2,11 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-/* :root {
+:root {
   --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-} */
+  --background-start-rgb: #effafa;
+  --background-end-rgb: #effafa;
+}
 
 /* @media (prefers-color-scheme: dark) {
   :root {
@@ -31,3 +31,21 @@ body {
     text-wrap: balance;
   }
 }
+
+.homeBanner2{
+  height: 800px;
+  background-image: url(/images/hero-bg.svg);
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.homeBanner2 .bannerOverlay{
+  background: rgba(15, 15, 15, .4);
+  height: 800px;
+  width: 100%;
+}
+
+.navbar{
+  background: transparent;
+  transition: background-color 250ms ease-in-out;
+ }

@@ -4,8 +4,8 @@
 
 :root {
   --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: #effafa;
-  --background-end-rgb: #effafa;
+  --background-start-rgb: 29, 191, 193, 0.1;
+  --background-end-rgb: 29, 191, 193, 0.1
 }
 
 /* @media (prefers-color-scheme: dark) {
@@ -40,7 +40,7 @@ body {
 }
 
 .homeBanner2 .bannerOverlay{
-  background: rgba(15, 15, 15, .4);
+  background: #effafa;
   height: 800px;
   width: 100%;
 }

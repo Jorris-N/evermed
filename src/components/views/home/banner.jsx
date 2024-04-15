@@ -7,7 +7,7 @@ export default function Banner() {
   return (
     <div className="w-full homeBanner2 bg-cover bg-center">
         <div>
-                    <div className="lg:w-10/12 py-12 md:pt-48 pt-28 mx-auto px-6 justify-center w-full">
+                    <div className="lg:w-10/12 py-12 md:pt-52 pt-28 mx-auto px-6 justify-center w-full">
                       <div className='grid md:grid-cols-2 gap-6 justify-center'>
                           <div className='items-center md:pt-16'>
                             <div className='flex md:space-x-8'>

@@ -7,6 +7,7 @@ import FactCounter from "@/components/views/home/factCounter";
 import OurCompany from "@/components/views/home/ourCompany";
 import Values from "@/components/views/home/values";
 import Products from "@/components/views/home/products";
+import Purpose from "@/components/views/home/purpose";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -19,6 +20,7 @@ export default function Home() {
         <OurCompany/>
         <Values/>
         <Products/>
+        <Purpose/>
       </Layout>
     </div>
   );

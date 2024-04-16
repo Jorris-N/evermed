@@ -61,7 +61,7 @@ export default function WebNav() {
                         <Link
                             href={'tel://+2547123456789'}
                             target={'_blank'}
-                            className='bg-[#1dbfc1] border rounded-full py-2.5 px-8 text-white text-[15px] hover:bg-transparent hover:border hover:border-[#1dbfc1] hover:text-[#1dbfc1] ease-in-out duration-300'
+                            className='bg-[#1dbfc1] border border-transparent rounded-full py-2.5 px-8 text-white text-[15px] hover:bg-transparent hover:border hover:border-[#1dbfc1] hover:text-[#1dbfc1] ease-in-out duration-300'
                         >
                             +254 7123 456 789
                         </Link>

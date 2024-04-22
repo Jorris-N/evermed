@@ -22,7 +22,7 @@ export default function Banner() {
                               <div>
                               <button>
                                 <Link href="/contact" className='bg-transparent flex items-center space-x-2 capitalize border-2 border-[#1dbfc1] rounded-full py-3 px-8 text-[#1dbfc1] hover:text-white font-semibold hover:bg-[#1dbfc1] hover:border-2 hover:border-[#1dbfc1] hover:text-[#1dbfc1] ease-in-out duration-300'>
-                                  <span>learn more</span> <span><svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m9 5 7 7-7 7"/></svg></span>
+                                  <span>learn more</span> <span><svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m9 5 7 7-7 7"/></svg></span>
                                 </Link>
                               </button>
                               </div>

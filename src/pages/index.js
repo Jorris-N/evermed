@@ -8,6 +8,8 @@ import OurCompany from "@/components/views/home/ourCompany";
 import Values from "@/components/views/home/values";
 import Products from "@/components/views/home/products";
 import Purpose from "@/components/views/home/purpose";
+import Brands from "@/components/views/home/brands";
+import Partnership from "@/components/views/home/partnership";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -21,6 +23,8 @@ export default function Home() {
         <Values/>
         <Products/>
         <Purpose/>
+        <Brands/>
+        <Partnership/>
       </Layout>
     </div>
   );

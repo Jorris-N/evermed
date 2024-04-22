@@ -1,6 +1,7 @@
 import React from 'react'
 import WebNav from '../navigation/webnav'
 import Responsive from '../navigation/responsive'
+import Footer from '../navigation/footer'
 
 export default function Layout({children}) {
   return (
@@ -15,7 +16,7 @@ export default function Layout({children}) {
     </main>
 
     <footer>
-        
+        <Footer/>
     </footer>
 </>
   )

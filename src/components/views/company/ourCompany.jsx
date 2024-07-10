@@ -6,12 +6,7 @@ import Dot from '../../../../public/images/dot-bg.svg'
 export default function OurCompany() {
   return (
     <div className="lg:w-10/12 py-16 mx-auto px-6 justify-center w-full">
-    <div className='grid md:grid-cols-2 gap-6 justify-center'>
-        <div className='h-full w-full '>
-          <div className='flex-shrink-0 relative'>
-            <Image src={Founder} alt='Evermed' className='object-cover' width={500} height={500}/>
-          </div>
-        </div>
+    <div className='grid md:grid-cols-2 gap-12 justify-center'>
 
         <div className='items-center md:pt-16'>
           <div className='flex md:space-x-8'>
@@ -32,6 +27,12 @@ export default function OurCompany() {
             <div>
             </div>
             </div>
+          </div>
+        </div>
+
+        <div className='h-full w-full '>
+          <div className='flex-shrink-0 relative'>
+            <Image src={Founder} alt='Evermed' className='object-cover' width={500} height={500}/>
           </div>
         </div>
     </div>

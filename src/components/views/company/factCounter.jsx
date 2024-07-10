@@ -13,7 +13,7 @@ export default function FactCounter(){
         {/* <section className='w-full  bg-center flex items-center justify-center'> */}
             <div className='lg:w-10/12 px-6 py-16 mx-auto'>
                 
-                    <ScrollTrigger className='lg:py-0 mt-56 md:mt-0 grid lg:grid-cols-4 grid-cols-2 gap-8' onEnter={()=>setCounterOn(true)} onExit={()=>setCounterOn(false)} >
+                    <ScrollTrigger className='grid lg:grid-cols-4 grid-cols-2 gap-8' onEnter={()=>setCounterOn(true)} onExit={()=>setCounterOn(false)} >
                         <div>
                             {counterOn && (
                                 <div className='flex flex-col items-center justify-center'>

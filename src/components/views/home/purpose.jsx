@@ -8,7 +8,7 @@ export default function Purpose() {
           <div className='flex md:space-x-8'>
             <div className='space-y-6'>
               <h3 className='uppercase text-[#1dbfc1] font-semibold text-sm'>our purpose</h3>
-              <h2 className='lg:text-5xl text-3xl font-medium  capitalize text-slate-700'>Congue ultric in pellentesque sodales egestas faucibus accumsan.</h2>
+              <h2 className='lg:text-5xl text-3xl font-medium capitalize text-slate-700'>Congue ultric in pellentesque sodales egestas faucibus accumsan.</h2>
             <div>
             </div>
             </div>

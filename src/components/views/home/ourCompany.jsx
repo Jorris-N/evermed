@@ -17,8 +17,7 @@ export default function OurCompany() {
           <div className='flex md:space-x-8'>
             <div className='space-y-6'>
               <h3 className='uppercase text-[#1dbfc1] font-semibold text-sm'>our company</h3>
-            <h2 className='lg:text-6xl text-3xl font-medium capitalize text-slate-700'>fast growing pharma</h2>
-            <h2 className='lg:text-6xl text-3xl font-medium capitalize text-slate-700'>company</h2>
+            <h2 className='lg:text-6xl text-3xl font-medium capitalize text-slate-700'>fast growing pharma company</h2>
             <div className='space-y-4 leading-7'>
             <p className='text-slate-600'>Mattis tristique tincidunt scelerisque neque felis non sed sed dignissim sit ornare fermentum velit amet mauris eget dui scelerisque augue cum tellus aliquet donec leo, euismod id mattis eu, tortor sit eget commodo egestas tincidunt tortor justo, porta pulvinar at.</p>
             <p className='flex space-x-3'>

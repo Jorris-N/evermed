@@ -4,6 +4,8 @@ import Banner from '@/components/views/company/banner'
 import Glance from '@/components/views/company/glance'
 import FactCounter from '@/components/views/company/factCounter'
 import OurCompany from '@/components/views/company/ourCompany'
+import Therapy from '@/components/views/company/therapy'
+import Partnership from '@/components/views/home/partnership'
 
 export default function company() {
   return (
@@ -13,6 +15,8 @@ export default function company() {
             <Glance/>
             <FactCounter/>
             <OurCompany/>
+            <Therapy/>
+            <Partnership/>
         </Layout>
     </div>
   )

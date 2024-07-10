@@ -45,6 +45,19 @@ body {
   width: 100%;
 }
 
+.companyBanner{
+  height: 550px;
+  background-image: url(/images/hero-bg.svg);
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.companyBanner .bannerOverlay{
+  background: #effafa;
+  height: 550px;
+  width: 100%;
+}
+
 .navbar{
   background: transparent;
   transition: background-color 250ms ease-in-out;

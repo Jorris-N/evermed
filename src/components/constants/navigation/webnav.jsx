@@ -47,7 +47,7 @@ export default function WebNav() {
                         </Link>
                     </div>
                     <div className='flex space-x-8 items-center'>
-                        <nav className='flex items-center space-x-8 items-center'>
+                        <nav className='flex space-x-8 items-center'>
                             {navigation.links.map((item) => (
                                 <Link
                                     href={item.href}

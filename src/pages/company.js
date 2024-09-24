@@ -5,6 +5,7 @@ import Glance from '@/components/views/company/glance'
 import FactCounter from '@/components/views/company/factCounter'
 import OurCompany from '@/components/views/company/ourCompany'
 import Therapy from '@/components/views/company/therapy'
+import Video from '@/components/views/company/video'
 import Partnership from '@/components/views/home/partnership'
 
 export default function company() {
@@ -16,6 +17,7 @@ export default function company() {
             <FactCounter/>
             <OurCompany/>
             <Therapy/>
+            <Video/>
             <Partnership/>
         </Layout>
     </div>
